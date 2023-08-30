@@ -160,6 +160,10 @@ input[type="checkbox"]:checked {
 }
 
 @media(max-width: 600px) {
+  body {
+    display: flex;
+  }
+  
   input[type="range"] {
     width: 90vw;
   }
