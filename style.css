@@ -7,6 +7,7 @@
 body {
   background-color: #000000;
   font-family: 'Tomorrow', sans-serif;
+  overflow-x: hidden;
 }
 
 button {
@@ -164,7 +165,7 @@ input[type="checkbox"]:checked {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    
   }
 
   input[type="range"] {
